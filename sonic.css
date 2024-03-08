@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+.t {
+    color: #ffffff;
+    border: none;
+    outline: none;
+    background: rgba(142, 142, 142, 0.098);
+    border-radius: 8px;
+    position: relative;
+    left: 715px;
+    transform: scale(160%);
+    width: 320px;
+    height: 30px;
+    padding: 10px 25px;
+    transition: all 0.2s ease-in-out;
+    top: -12px;
+}
+::placeholder {
+    color: rgb(79, 79, 79);
+    font-size: 11px;
+    position: relative;
+    bottom: 1px;
+}
+.er {
+    color: #000000;
+    transform: scale(145%);
+    position: relative;
+    left: 305px;
+    top: -10px;
+}
+.t:hover {
+    background: rgba(164, 164, 164, 0.263);
+
+}
+.Login {
+    border-radius: 10px;
+    background: rgb(239, 239, 239);
+    border: none;
+    color: #000000;
+    position: relative;
+    width: 110px;
+    height: 50px;
+    top: 29px;
+    left: 1200px;
+    font-size: 19px;
+    text-align:right;
+    padding: 2px 1px;
+    transition: all 0.2s ease-in-out;
+
+}
+.lg {
+    position: relative;
+    right: 80px;
+    top: 2px;
+}
+.Login:hover {
+    background: rgb(228, 228, 228)
+}
+.prof {
+    border-radius: 10px;
+    background: rgb(239, 239, 239);
+    border: none;
+    color: #000000;
+    position: relative;
+    width: 60px;
+    height: 50px;
+    top: 29px;
+    left: 1220px;
+    font-size: 19px;
+    padding: 2px 1px;
+    transition: all 0.2s ease-in-out;
+}
+.prof:hover {
+    background: rgb(228, 228, 228)
+}
+.pf {
+    transform: scale(146%);
+}
+.shop {
+    border-radius: 10px;
+    background: rgb(239, 239, 239);
+    border: none;
+    color: #000000;
+    position: relative;
+    width: 60px;
+    height: 50px;
+    top: 29px;
+    left: 1210px;
+    font-size: 19px;
+    padding: 2px 1px;
+    transition: all 0.2s ease-in-out;
+}
+.shop:hover {
+    background: rgb(228, 228, 228)
+}
+.Dr {
+    border-radius: 10px;
+    background:none;
+    border: none;
+    color: #000000;
+    position: relative;
+    width: 60px;
+    height: 50px;
+    top: 29px;
+    font-size: 19px;
+    padding: 2px 1px;
+    transition: all 0.5s ease-in-out;
+}
+.Dr:hover {
+    color: #656565;
+}
+.st {
+    border-radius: 10px;
+    background:none;
+    border: none;
+    color: #000000;
+    position: relative;
+    width: 60px;
+    height: 50px;
+    top: 29px;
+    font-size: 19px;
+    padding: 2px 1px;
+    transition: all 0.5s ease-in-out;
+    left: 30px;
+}
+.st:hover {
+    color: #656565;
+}
+.cr:hover {
+    color: #656565;
+}
+.cr {
+    border-radius: 10px;
+    background:none;
+    border: none;
+    color: #000000;
+    position: relative;
+    width: 60px;
+    height: 50px;
+    top: 29px;
+    font-size: 19px;
+    padding: 2px 1px;
+    transition: all 0.5s ease-in-out;
+    left: 60px;
+}
+.logo {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transform: scale(4%);
+    right: 700px;
+    top: -737px;  
+}
+.OPEN {
+    transform: scale(2700%);    
+    position: relative;
+    left: 3100px;
+    color: #000000;
+}
+.buynft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(ddd.png);
+    width: 748px;
+    height: 748px;
+    position: relative;
+    top: -1400px;
+    border-top: solid 50px #ffffff;
+    border-radius: 20px;
+    filter: drop-shadow(1px 1px 3px #575757);
+    transform: scale(90%);
+}
+.eth {
+    transform: scale(5.5%);
+    position: relative;
+    right:610px;
+    top: -380px;
+}
+.h {
+    transform: scale(7.5%);
+    position: relative;
+    left: 350px;
+    top: -380px;
+}
+.share {
+    transform: scale(6.5%);
+    position: relative;
+    left: 560px;
+    top: -380px;
+    color: aqua;
+}
+.h:hover {
+    filter: drop-shadow(40px #ff296d);
+}
+.ul  {
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px; 
+    column-gap: 10px;
+    row-gap: 15px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: -2100px;
+    left: 620px;
+}
+.hand {
+    border: none;
+    background: none;
+    transform: scale(200%);
+    transition: all 0.5s ease-in-out;
+}
+.shar {
+    border: none;
+    background: none;
+    transform: scale(200%);
+    transition: all 0.5s ease-in-out;
+}
+.more {
+    border: none;
+    background: none;
+    transform: scale(200%);
+    transition: all 0.5s ease-in-out;
+}
+.hand:hover {
+    background-color: #eaeaea;
+    border-radius: 90px;
+}
+.shar:hover {
+    background-color: #eaeaea;
+    border-radius: 90px;
+}
+.more:hover {
+    background-color: #eaeaea;
+    border-radius: 90px;
+}
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first {
+    color: rgba(0, 110, 255, 0.916);
+    position: relative;
+    top: -2120px;
+    left: 245px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.second {
+    position: relative;
+    top: -2100px;
+    left: 245px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.three {
+    position: relative;
+    top: -2090px;
+    left: 245px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.eye {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    left: 200px;
+    top: -2050px;
+    color: #383838;
+}
+.l {
+    position: relative;
+    top: 3px;
+    transform: scale(150%);
+    right: 120px;
+}
+.ll {
+    position: relative;
+    top: 3px;
+    transform: scale(150%);
+    right: 123px;
+}
+.lll{
+    position: relative;
+    top: 3px;
+    transform: scale(150%);
+    right: 75px;
+}
+.buyparent {
+    border: solid 0.5px #e7e7e7;
+    position: relative;
+    width: 740px;
+    height: 230px;
+    left: 750px;
+    border-radius: 10px;
+    top: -2000px;
+}
+.Sale {
+    position: relative;
+    color: #414141;
+    top: 20px;
+    transform: scale(90%);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 14px;
+}
+.time {
+    position: relative;
+    right: 345px;
+    transform: scale(140%);
+    top: 2px;
+}
+.uuu {
+    position: relative;
+    color: #2b2b2b;
+    top: 17px;
+    transform: scale(90%);
+    right: 20px;
+
+}
+.yyy {
+    border: solid 0.1px #e7e7e7;
+}
+.Buynow {
+    position: relative;
+    width: 160px;
+    border: none;
+    background: rgb(0, 123, 245);
+    color: #ffffff;
+    border-radius: 7px;
+    transform: scale(200%);
+    text-align: center;
+    top: 43px;
+    font-size: 9px;
+    height: 25px;
+    left: 100px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+
+}
+.frosh {
+    position: relative;
+    border: none;
+    background: #0077ff;
+    color: #ffffff;
+    border-radius: 7px;
+    transform: scale(200%);
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    left: 190px;
+    top: 45px;
+    height: 25px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.Buynow:hover {
+    background-color: #0088ff;
+}
+.frosh:hover {
+    background-color: #0088ff;
+}
+.offer {
+    position: relative;
+    width: 160px;
+    border: none;
+    background: rgb(244, 244, 244);
+    color: #000000;
+    border-radius: 7px;
+    transform: scale(200%);
+    text-align: center;
+    top: 43px;
+    font-size: 9px;
+    height: 25px;
+    left: 290px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.gggg {
+    position: relative;
+    transform: rotate(275deg);
+    right: 59px;
+    top: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.offer:hover {
+    background: rgb(227, 227, 227);
+}
+.ethhhh {
+    position: relative;
+    left: 14px;
+    top: 20px;
+}

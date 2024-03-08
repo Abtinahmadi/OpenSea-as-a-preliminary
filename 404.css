@@ -1,0 +1,41 @@
+body {
+    background-image: url(4044.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    position: relative;
+    top: 450px;
+    border: none;
+    background: linear-gradient(to right,#006aff,#9900ff,#00ffe1);
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px #2d2d2d;
+    animation: back infinite 1.5s ease-in-out;
+    background-size: 400% 300%;
+    transition: all 0.5s ease-in-out;
+    color: aliceblue;
+}
+button:hover {
+    box-shadow: 0 0 0 5px #ffffff, 
+    0 0 0 10px #9900ff;
+    font-size: 26px;
+}
+@keyframes back {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+         background-position:100% 50% ;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}

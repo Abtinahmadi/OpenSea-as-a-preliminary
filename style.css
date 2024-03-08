@@ -1,0 +1,111 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-image: url(cvcbb.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.ggg {
+    width: 320px;
+    height: 430px;
+    border-radius: 20px;
+    Backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.098);
+    border: 1px solid #fff;
+    position: relative;
+    top: 150px;
+    box-shadow: 0px 0px 50px rgb(0, 157, 255);
+}
+.log {
+    color: #ffff;
+    position: relative;
+    left: 120px;
+    
+}
+.em{
+    position: relative;
+    left: 35px;
+    background: none;
+    top: -10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom-color: #ffffff;
+    width: 220px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(10px #0091ff);
+    top: 15px;
+    transition: all 0.6s ease-in-out;
+}
+.pass {
+    position: relative;
+    left: 35px;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom-color: #ffffff;
+    width: 220px;
+    padding: 10px ;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(10px #0091ff);
+    top: 70px;
+    transition: all 0.6s ease-in-out;
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+  }
+.pass:hover {
+    padding: 20px;
+}
+.em:hover {
+    padding: 20px;
+}
+.re {
+    position: relative;
+    left: 50px;
+    color: #ffff;
+    top: 100px;
+}
+.d {
+    position: relative;
+    left: 50px;
+    color: #ffff;
+    top: 120px;
+}
+.do {
+    text-decoration: none;
+    color: #dedede;
+}
+.bt {
+    position: relative;
+    left: 40px;
+    top: 110px;
+    border: none;
+    width: 235px;
+    height: 40px;
+    background: #ffff;
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+}
+.bt:hover {
+    background: radial-gradient(#6200ff,#00e1ff) ;
+    box-shadow: 11px 15px 40px #00ccff,
+    -7px -5px 33px #00ccff;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #00ccff;
+    cursor:pointer;
+}
